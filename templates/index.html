@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../static/style.css">
+  <title>Summary bot</title>
+  
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      Summary Bot
+    </div>
+    <div class="chat-messages" id="chat-messages">
+      <div class="message-container">
+        <div class="message bot-message">
+          Welcome to Summary Bot! How can I assist you today?
+        </div><br>
+      </div>
+    </div>
+    <div class="chat-input-container">
+      <input type="text" id="user-input" class="chat-input" placeholder="Type your message...">
+      <button onclick="sendMessage()" class="send-button">Send</button>
+    </div>
+  </div>
+
+  <script src="../static/script.js"></script>
+
+</body>
+</html>
